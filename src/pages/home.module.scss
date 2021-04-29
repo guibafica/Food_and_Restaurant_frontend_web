@@ -179,7 +179,7 @@
   }
 }
 // Fim header section and responsiveness
-
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // Começo home section 
 .home {
   min-height: 100vh;
@@ -243,22 +243,41 @@
       font-size: 2rem;
       padding: 1rem 0;
     }
-
-    .btn {
-      font-size: 1.7rem;
-      padding: 0.7rem 4rem;
-      border-radius: 5rem;
-      margin-top: 1rem;
-      background: none;
-      color: #333;
-      cursor: pointer;
-      border: 0.2rem solid var(--yellow);
-
-      &:hover {
-        background: var(--yellow);
-      }
-    }
   }
 }
 // Fim home section 
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Começo about section 
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 
+  .image {
+    flex: 1 1 40rem;
+    height: 50rem;
+    background: url(../../public/about-frame-img.png), url(../../public/about-img.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: screen;
+  }
+
+  .content {
+    flex: 1 1 40rem;
+    padding: 2rem;
+
+    h3 {
+      font-size: 4rem;
+      color: #333;
+    }
+
+    p {
+      font-size: 1.6rem;
+      color: #666;
+      padding: 1rem 0;
+    }
+  }
+}
+// Fim about section 
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

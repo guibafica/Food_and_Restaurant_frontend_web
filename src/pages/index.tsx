@@ -34,11 +34,11 @@ export default function Home() {
         <nav className={hamburgerIcon ? styles.navbarClosed : styles.navbarOpened}>
           <ul>
             <li><a className={styles.active} href="#home">Home</a></li>
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#cardapio">Cardápio</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#menu">Cardápio</a></li>
             <li><a href="#popular">Popular</a></li>
-            <li><a href="#galeria">Galeria</a></li>
-            <li><a href="#pedido">Pedido</a></li>
+            <li><a href="#gallery">Galeria</a></li>
+            <li><a href="#order">Pedido</a></li>
           </ul>
         </nav>
       </header>
@@ -64,6 +64,32 @@ export default function Home() {
         </div>
       </section>
       {/* Fim home section */}
+
+      {/* Começo about section */}
+      <section className={styles.about} id="about">
+        <div className={styles.image} />
+
+        <div className={styles.content}>
+          <h3>uma palavra sobre nós</h3>
+
+          <p>
+            Veniam nulla laborum adipisicing ad velit ad aliquip et sint
+            reprehenderit laborum dolor irure adipisicing. Minim aliquip fugiat
+            laborum cupidatat dolore laborum nostrud aute ut exercitation nisi
+            officia ea. Velit sunt amet et dolore tempor consequat ullamco
+          </p>
+
+          <p>
+            Ex commodo adipisicing id et in proident do commodo ea duis
+            consectetur nostrud aliqua.
+          </p>
+
+          <a href="#">
+            <button type="button">Saiba mais</button>
+          </a>
+        </div>
+      </section>
+      {/* Fim about section */}
     </div>
   )
 }
