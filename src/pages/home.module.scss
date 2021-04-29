@@ -149,9 +149,9 @@
       }
     }
   
-    // .order .row .image {
-    //   display: none;
-    // }
+    .order .row .image {
+      display: none;
+    }
   }
 
   @media (max-width: 991px) {
@@ -523,4 +523,82 @@
   }
 }
 // Fim gallery section 
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Começo order section 
+.order {
+  background: url(../../public/wooden-board.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  .heading {
+    text-align: center;
+    font-size: 4rem;
+    padding: 0 0.5rem;
+    color: #333;
+  
+    span {
+      color: var(--yellow);
+    }
+  }
+
+  .btn {
+    font-size: 1.7rem;
+    padding: 0.7rem 4rem;
+    border-radius: 5rem;
+    margin-top: 1rem;
+    background: none;
+    color: #333;
+    cursor: pointer;
+    border: 0.2rem solid var(--yellow);
+
+    &:hover {
+      background: var(--yellow);
+    }
+  }
+
+  .row {
+    display: flex;
+    background: #fff;
+    margin: 2rem 0;
+    overflow: hidden;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+    border-radius: 1rem;
+
+    .image {
+      flex: 1 1 40%;
+
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+
+    form {
+      flex: 1 1 60%;
+      background: #fff;
+      padding: 2rem;
+
+      .box {
+        padding: 1rem;
+        margin: 1rem 0;
+        font-size: 1.5rem;
+        color: #333;
+        text-transform: none;
+        background: #f0f0f0;
+        width: 100%;
+
+        &::placeholder {
+          text-transform: capitalize;
+        }
+      }
+
+      .message {
+        resize: none;
+        height: 15rem;
+      }
+    }
+  }
+}
+// Fim order section 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

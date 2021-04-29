@@ -282,6 +282,35 @@ export default function Home() {
         </div>
       </section>
       {/* Fim gallery section */}
+
+      {/* Começo order section */}
+      <section className={styles.order} id="order">
+        <h1 className={styles.heading}>Entre em <span>contato</span></h1>
+
+        <div className={styles.row}>
+          <form action="">
+            <input type="text" className={styles.box} placeholder="Seu nome" />
+            <input type="email" className={styles.box} placeholder="Seu email" />
+            <input type="text" className={styles.box} placeholder="Seu número do celular com DDD" />
+
+            <textarea
+              name=""
+              id=""
+              cols={30}
+              rows={10}
+              className={`${styles.box} ${styles.message}`}
+              placeholder="Sua mensagem"
+            ></textarea>
+
+            <input type="submit" value="Enviar mensagem" className={styles.btn} />
+          </form>
+
+          <div className={styles.image}>
+            <img src="/pexels-pixabay-162583.jpg" alt="Imagem enviar mensagem" />
+          </div>
+        </div>
+      </section>
+      {/* Começo order section */}
     </div>
   )
 }
