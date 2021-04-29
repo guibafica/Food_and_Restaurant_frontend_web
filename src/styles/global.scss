@@ -47,21 +47,6 @@ section {
   padding-top: 8.5rem;
 }
 
-.btn {
-  font-size: 1.7rem;
-  padding: 0.7rem 4rem;
-  border-radius: 5rem;
-  margin-top: 1rem;
-  background: none;
-  color: #333;
-  cursor: pointer;
-  border: 0.2rem solid var(--yellow);
-}
-
-.btn:hover {
-  background: var(--yellow);
-}
-
 .heading {
   text-align: center;
   font-size: 4rem;
@@ -81,67 +66,13 @@ section {
 
 
 
-// header 
 
-// .home {
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   flex-wrap: wrap;
-//   position: relative;
-//   z-index: 0;
-//   overflow: hidden;
-// }
 
-// .home::before,
-// .home::after {
-//   content:'';
-//   position: absolute;
-//   top:5rem; right:-6rem;
-//   background:var(--yellow);
-//   border-radius: 3rem;
-//   transform:rotate(-45deg);
-//   height:40rem;
-//   width:70rem;
-//   z-index: -2;
-//   animation: animte 1s linear 1;
-// }
 
-// @keyframes animte {
-//   0%{
-//     transform:rotate(45deg) translateY(-40rem);
-//   }
-// }
 
-// .home::before {
-//   top:-7rem;
-//   background:#fff;
-//   box-shadow: 0 1rem 4rem rgba(0,0,0,.1);
-//   z-index: -1;
-// }
 
-// .home .image {
-//   flex:1 1 39rem;
-// }
 
-// .home .image img {
-//   width:100%;
-// }
 
-// .home .content {
-//   flex:1 1 39rem;
-// }
-
-// .home .content h3 {
-//   color:#333;
-//   font-size: 6rem;
-// }
-
-// .home .content p {
-//   color:#666;
-//   font-size: 2rem;
-//   padding:1rem 0;
-// }
 
 // .about {
 //   display: flex;
@@ -458,25 +389,7 @@ section {
 //   color:var(--yellow);
 // }
 
-// @media (max-width:991px) {
-//   html{
-//     font-size: 55%;
-//   }
-
-//   .home::before,
-//   .home::after {
-//     display: none;
-//   }
-// }
 
 
-// @media (max-width:500px) {
-//   html {
-//     font-size: 50%;
-//   }
 
-//   section {
-//     padding:1rem 5%;
-//     padding-top: 8.5rem;
-//   }
-// }
+

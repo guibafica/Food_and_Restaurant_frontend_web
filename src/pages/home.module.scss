@@ -1,3 +1,4 @@
+// Começo header section and responsiveness
 .homepage {
   h1, h3 {
     font-family: 'Oswald', sans-serif;
@@ -140,16 +141,124 @@
       }
     }
 
-    // .home .content {
-    //   text-align: center;
-    // }
-  
-    // .home .content h3 {
-    //   font-size: 4.5rem;
-    // }
+    .home .content {
+      text-align: center;
+
+      h3 {
+        font-size: 4.5rem;
+      }
+    }
   
     // .order .row .image {
     //   display: none;
     // }
   }
+
+  @media (max-width: 991px) {
+    html{
+      font-size: 55%;
+    }
+
+    .home {
+      &::before,
+      &::after {
+        display: none;
+      }
+    }
+  }
+
+  @media (max-width: 500px) {
+    html {
+      font-size: 50%;
+    }
+  
+    section {
+      padding: 1rem 5%;
+      padding-top: 8.5rem;
+    }
+  }
 }
+// Fim header section and responsiveness
+
+// Começo home section 
+.home {
+  min-height: 100vh;
+  padding: 1rem 10%;
+  padding-top: 8.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+
+  &::before,
+  &::after {
+    content: '';
+    position: absolute;
+    top: 5rem; 
+    right: -6rem;
+    background: var(--yellow);
+    border-radius: 3rem;
+    transform: rotate(-45deg);
+    height: 40rem;
+    width: 70rem;
+    z-index: -2;
+    animation: animate 1s linear 1;
+  }
+
+  @keyframes animate {
+    0% {
+      transform: rotate(45deg) translateY(-40rem);
+    }
+  }
+
+  &::before {
+    top: -7rem;
+    background: #fff;
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.1);
+    z-index: -1;
+  }
+
+  .image {
+    flex: 1 1 39rem;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .content {
+    flex: 1 1 39rem;
+
+    h3 {
+      color: #333;
+      font-size: 6rem;
+    }
+
+    p {
+      color: #666;
+      font-size: 2rem;
+      padding: 1rem 0;
+    }
+
+    .btn {
+      font-size: 1.7rem;
+      padding: 0.7rem 4rem;
+      border-radius: 5rem;
+      margin-top: 1rem;
+      background: none;
+      color: #333;
+      cursor: pointer;
+      border: 0.2rem solid var(--yellow);
+
+      &:hover {
+        background: var(--yellow);
+      }
+    }
+  }
+}
+// Fim home section 
+

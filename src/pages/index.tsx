@@ -6,7 +6,6 @@ import styles from './home.module.scss';
 
 export default function Home() {
   const [hamburgerIcon, setHamburgerIcon] = useState(true);
-  const [navBarToogle, setNavBarToogle] = useState(true);
 
   function handleMenuBarClick() {
     setHamburgerIcon(!hamburgerIcon);
@@ -44,6 +43,29 @@ export default function Home() {
         </nav>
       </header>
       {/* Fim header section */}
+
+      {/* Começo home section */}
+      <section className={styles.home} id="home">
+        <div className={styles.content}>
+          <h3>Anim est do tempor minim.</h3>
+
+          <p>
+            Magna quis deserunt et est voluptate sint cupidatat sint. Pariatur
+            minim nulla ut ea adipisicing ipsum non cillum ut officia id mollit.
+          </p>
+
+          <a href="#">
+            <button type="button" className={styles.btn}>Iniciar</button>
+          </a>
+        </div>
+
+        <div className={styles.image}>
+          <img src="/home-img.png" alt="Imagem da home" />
+        </div>
+      </section>
+      {/* Fim home section */}
     </div>
   )
 }
+
+// contato com as redes sociais e ir auto pro wpp
