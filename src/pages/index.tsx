@@ -1,6 +1,12 @@
 import { useState } from 'react';
 import Head from 'next/head';
-import { FaHamburger, FaRegWindowClose } from 'react-icons/fa';
+import {
+  FaHamburger,
+  FaRegWindowClose,
+  FaStar,
+  FaStarHalfAlt,
+  FaRegStar
+} from 'react-icons/fa';
 
 import styles from './home.module.scss';
 
@@ -93,7 +99,7 @@ export default function Home() {
 
       {/* Começo menu section */}
       <section className={styles.menu} id="menu">
-        <h1 className={styles.heading}>Minhas deliciosas <span>dicas</span> do mês</h1>
+        <h1 className={styles.heading}>Minhas saborosas <span>dicas</span> do mês</h1>
 
         {/* Add funcionalidade de mudar o conteúdo clicando nas opções...
         talvez trazer de um arquivo de fora, e ir mapeando (dicas.li1 / dicas.img) */}
@@ -142,6 +148,96 @@ export default function Home() {
         </div>
       </section>
       {/* Fim menu section */}
+
+      {/* Começo popular section */}
+      <section className={styles.popular} id="popular">
+        <h1 className={styles.heading}>Alimentos mais <span>populares</span></h1>
+        {/* Perguntas mais comuns? */}
+        {/* Feedbacks dos pacientes? h3 => Frase sobre | div => nome do paciente */}
+
+        <div className={styles.boxContainer}>
+          <div className={styles.box}>
+            <img src="/pexels-cup-of-couple-7660473.jpg" alt="Alimento popular" />
+
+            <h3>Deserunt velit ul.</h3>
+
+            <div className={styles.stars}>
+              <FaStar />
+              <FaStar />
+              <FaStar />
+              <FaStarHalfAlt />
+              <FaRegStar />
+            </div>
+
+            <div className={styles.price}>Commodo ex incididunt.</div>
+
+            <a href="#">
+              <button type="button" className={styles.btn}>Cupidatat.</button>
+            </a>
+          </div>
+
+          <div className={styles.box}>
+            <img src="/pexels-cup-of-couple-7657316.jpg" alt="Alimento popular" />
+
+            <h3>Deserunt velit ul.</h3>
+
+            <div className={styles.stars}>
+              <FaStar />
+              <FaStar />
+              <FaStar />
+              <FaStar />
+              <FaStarHalfAlt />
+            </div>
+
+            <div className={styles.price}>Commodo reprehenderit.</div>
+
+            <a href="#">
+              <button type="button" className={styles.btn}>Minim.</button>
+            </a>
+          </div>
+
+          <div className={styles.box}>
+            <img src="/pexels-cup-of-couple-7656948.jpg" alt="Alimento popular" />
+
+            <h3>Deserunt velit ul.</h3>
+
+            <div className={styles.stars}>
+              <FaStar />
+              <FaStar />
+              <FaStar />
+              <FaStar />
+              <FaStar />
+            </div>
+
+            <div className={styles.price}>Mollit ipsum offic.</div>
+
+            <a href="#">
+              <button type="button" className={styles.btn}>Esse enim.</button>
+            </a>
+          </div>
+
+          <div className={styles.box}>
+            <img src="/pexels-jane-d-793759.jpg" alt="Alimento popular" />
+
+            <h3>Deserunt velit ul.</h3>
+
+            <div className={styles.stars}>
+              <FaStar />
+              <FaStar />
+              <FaStar />
+              <FaRegStar />
+              <FaRegStar />
+            </div>
+
+            <div className={styles.price}>Magna Lorem.</div>
+
+            <a href="#">
+              <button type="button" className={styles.btn}>Enim elit.</button>
+            </a>
+          </div>
+        </div>
+      </section>
+      {/* Fim popular section */}
     </div>
   )
 }

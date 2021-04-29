@@ -155,7 +155,7 @@
   }
 
   @media (max-width: 991px) {
-    html{
+    html {
       font-size: 55%;
     }
 
@@ -168,13 +168,15 @@
   }
 
   @media (max-width: 500px) {
-    html {
-      font-size: 50%;
-    }
-  
-    section {
-      padding: 1rem 5%;
-      padding-top: 8.5rem;
+    .homepage {
+      html {
+        font-size: 50%;
+      }
+
+      section {
+        padding: 1rem 5%;
+        padding-top: 8.5rem;
+      }
     }
   }
 }
@@ -384,3 +386,70 @@
 }
 // Fim menu section 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Começo popular section 
+.popular {
+  background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.7)), url(../../public/cut-table.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  .heading {
+    text-align: center;
+    font-size: 4rem;
+    padding: 0 0.5rem;
+    color: #333;
+  
+    span {
+      color: var(--yellow);
+    }
+  }
+
+  .boxContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .box {
+      background: #fff;
+      width: 35rem;
+      padding: 2rem;
+      margin: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.2);
+      text-align: center;
+
+      &:hover {
+        transform: scale(1.1);
+        box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.5);
+      }
+
+      img { 
+        height: 20rem;
+        width: 100%;
+        object-fit: cover;
+      }
+
+      h3 {
+        color: #333;
+        font-size: 3rem;
+        font-weight: normal;
+      }
+
+      .stars {
+        svg {
+          color: var(--yellow);
+          font-size: 1.5rem;
+        }
+      }
+
+      .price {
+        color: #666;
+        font-size: 2.5rem;
+      }
+    }
+  }
+}
+// Começo popular section 
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
