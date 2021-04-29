@@ -450,6 +450,77 @@
     }
   }
 }
-// Começo popular section 
+// Fim popular section 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Começo gallery section 
+.gallery {
+  .heading {
+    text-align: center;
+    font-size: 4rem;
+    padding: 0 0.5rem;
+    color: #333;
+  
+    span {
+      color: var(--yellow);
+    }
+  }
 
+  .boxContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .box {
+      height: 20rem;
+      width: 30rem;
+      margin: 2rem;
+      cursor: pointer;
+      overflow: hidden;
+      position: relative;
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: -100%; 
+        left:0;
+        height:
+        100%;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        transition: 0.2s linear;
+      }
+
+      &:hover::before {
+        top: 0;
+      }
+
+      &:hover {
+        h3 {
+          top: 50%;
+          opacity: 1;
+          transition-delay: 0.2s;
+        }
+      }
+
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+
+      h3 {
+        position: absolute;
+        top: 100%; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        text-align: center;
+        font-size: 3rem;
+        opacity: 0;        
+      }
+    }
+  }
+}
+// Fim gallery section 
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
