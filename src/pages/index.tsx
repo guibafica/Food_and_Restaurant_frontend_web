@@ -5,7 +5,15 @@ import {
   FaRegWindowClose,
   FaStar,
   FaStarHalfAlt,
-  FaRegStar
+  FaRegStar,
+  FaMapMarkerAlt,
+  FaRegEnvelope,
+  FaPhoneAlt,
+  FaWhatsapp,
+  FaInstagram,
+  FaFacebookF,
+  FaTwitter,
+  FaLinkedinIn,
 } from 'react-icons/fa';
 
 import styles from './home.module.scss';
@@ -44,7 +52,7 @@ export default function Home() {
             <li><a href="#menu">Dicas</a></li>
             <li><a href="#popular">Popular</a></li>
             <li><a href="#gallery">Galeria</a></li>
-            <li><a href="#order">Pedido</a></li>
+            <li><a href="#order">Contato</a></li>
           </ul>
         </nav>
       </header>
@@ -310,7 +318,48 @@ export default function Home() {
           </div>
         </div>
       </section>
-      {/* Começo order section */}
+      {/* Fim order section */}
+
+      {/* Começo footer section */}
+      <div className={styles.footer}>
+        <div className={styles.boxContainer}>
+          <div className={styles.box}>
+            <h3>Informações de contato</h3>
+
+            <p><FaMapMarkerAlt /> Salvador, Bahia</p>
+            <p><FaRegEnvelope /> email@hotmail.com</p>
+            <p><FaPhoneAlt /> (71) 9 9999-9999</p>
+          </div>
+
+          <div className={styles.box}>
+            <h3>Redes sociais</h3>
+
+            <a href="#"><FaWhatsapp /> WhatsApp</a>
+            <a href="#"><FaInstagram /> Instagram</a>
+            <a href="#"><FaFacebookF /> Facebook</a>
+            <a href="#"><FaTwitter /> Twitter</a>
+            <a href="#"><FaLinkedinIn /> Linkedin</a>
+
+          </div>
+
+          <div className={styles.box}>
+            <h3>Links rápidos</h3>
+
+            <a href="#">Home</a>
+            <a href="#about">Sobre</a>
+            <a href="#menu">Dicas</a>
+            <a href="#popular">Popular</a>
+            <a href="#gallery">Galeria</a>
+            <a href="#order">Contato</a>
+          </div>
+        </div>
+
+        <h1 className={styles.credit}>
+          Feito por <a href="https://guilherme-bafica.vercel.app/">Guilherme Bafica</a>.
+          todos os direitos reservados.
+        </h1>
+      </div>
+      {/* Fim footer section */}
     </div>
   )
 }

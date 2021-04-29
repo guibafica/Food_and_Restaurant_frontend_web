@@ -602,3 +602,68 @@
 }
 // Fim order section 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Começo footer section 
+.footer {
+  background: #282727;
+  padding: 1rem 7%;
+
+  .boxContainer {
+    display: flex;
+    flex-wrap: wrap;
+
+    .box {
+      flex: 1 1 25rem;
+      margin: 2rem;
+
+      h3 {
+        font-size: 2rem;
+        color: #fff;
+        padding: 1rem 0;
+        font-weight: normal;
+      }
+
+      p {
+        font-size: 1.4rem;
+        color: #eee;
+        padding: 1rem 0;
+
+        svg {
+          padding-right: 0.2rem;
+          color: var(--yellow);
+        }
+      }
+
+      a {
+        font-size: 1.4rem;
+        color: #eee;
+        padding: 1rem 0;
+        display: block;
+
+        &:hover {
+          color: var(--yellow);
+        }
+
+        svg {
+          padding-right: 0.2rem;
+          color: var(--yellow);
+        }
+      }
+    }
+  }
+
+  .credit {
+    font-size: 2rem;
+    text-align: center;
+    border-top: 0.2rem solid rgba(255, 255, 255, 0.7);
+    padding: 2rem 1rem;
+    font-weight: normal;
+    letter-spacing: 0.1rem;
+    color: #fff;
+
+    a {
+      color: var(--yellow);
+    }
+  }
+}
+// Fim footer section 
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
