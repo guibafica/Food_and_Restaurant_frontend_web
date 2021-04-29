@@ -257,7 +257,7 @@
   .image {
     flex: 1 1 40rem;
     height: 50rem;
-    background: url(../../public/about-frame-img.png), url(../../public/about-img.jpg) no-repeat;
+    background: url(../../public/about-frame-img.png), url(../../public/medium-shot-serious-nutritionist-with-glasses.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-blend-mode: screen;
@@ -268,7 +268,7 @@
     padding: 2rem;
 
     h3 {
-      font-size: 4rem;
+      font-size: 3.9rem;
       color: #333;
     }
 
@@ -280,4 +280,107 @@
   }
 }
 // Fim about section 
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Começo menu section 
+.menu {
+  .btn {
+    font-size: 1.7rem;
+    padding: 0.7rem 4rem;
+    border-radius: 5rem;
+    margin-top: 1rem;
+    background: none;
+    color: #333;
+    cursor: pointer;
+    border: 0.2rem solid var(--yellow);
+
+    &:hover {
+      background: var(--yellow);
+    }
+  }
+
+  .heading {
+    text-align: center;
+    font-size: 4rem;
+    padding: 0 0.5rem;
+    color: #333;
+
+    span {
+      color: var(--yellow);
+    }
+  }
+
+  .list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 1rem 0;
+    margin: 2rem 0;
+    border-top: 0.3rem dashed rgba(0, 0, 0, 0.2);
+    border-bottom: 0.3rem dashed rgba(0, 0, 0, 0.2);
+
+    .active {
+      background:var(--yellow);
+      color:#fff;
+    }
+
+    .btn {
+      margin: 1rem;
+      
+      &:hover {
+        color:#fff;
+      }
+    }
+  }
+
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .image {
+      margin: 2rem;
+      padding: 2rem;
+      flex: 1 1 35rem;
+      border-radius: 1rem;
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+
+      img {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 1rem;
+      }
+    }
+
+    .content {
+      flex: 1 1 40rem;
+
+      .info {
+        padding: 1rem 0;
+
+        h3 {
+          display: flex;
+          align-items: center;
+          font-size: 2.4rem;
+          color: #333;
+
+          span {
+            padding-right: 1rem;
+            color: var(--yellow);
+          }
+        }
+
+        p {
+          padding: 1rem 0;
+          padding-left: 4.5rem;
+          font-size: 1.5rem;
+          color: #666;
+        }
+      }
+    }
+  }
+}
+// Fim menu section 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

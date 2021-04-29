@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div className={styles.homepage}>
       <Head>
-        <title>Food and Restaurant</title>
+        <title>GoNutri</title>
       </Head>
 
       {/* Começo header section */}
@@ -35,7 +35,7 @@ export default function Home() {
           <ul>
             <li><a className={styles.active} href="#home">Home</a></li>
             <li><a href="#about">Sobre</a></li>
-            <li><a href="#menu">Cardápio</a></li>
+            <li><a href="#menu">Dicas</a></li>
             <li><a href="#popular">Popular</a></li>
             <li><a href="#gallery">Galeria</a></li>
             <li><a href="#order">Pedido</a></li>
@@ -70,13 +70,13 @@ export default function Home() {
         <div className={styles.image} />
 
         <div className={styles.content}>
-          <h3>uma palavra sobre nós</h3>
+          <h3>uma palavra sobre mim</h3>
 
           <p>
             Veniam nulla laborum adipisicing ad velit ad aliquip et sint
             reprehenderit laborum dolor irure adipisicing. Minim aliquip fugiat
             laborum cupidatat dolore laborum nostrud aute ut exercitation nisi
-            officia ea. Velit sunt amet et dolore tempor consequat ullamco
+            officia ea. Velit sunt amet et dolore tempor consequat ullamco.
           </p>
 
           <p>
@@ -90,6 +90,58 @@ export default function Home() {
         </div>
       </section>
       {/* Fim about section */}
+
+      {/* Começo menu section */}
+      <section className={styles.menu} id="menu">
+        <h1 className={styles.heading}>Minhas deliciosas <span>dicas</span> do mês</h1>
+
+        {/* Add funcionalidade de mudar o conteúdo clicando nas opções...
+        talvez trazer de um arquivo de fora, e ir mapeando (dicas.li1 / dicas.img) */}
+
+        <ul className={styles.list}>
+          <li className={`${styles.btn} ${styles.active}`}>Café da manhã</li>
+          <li className={styles.btn}>Almoço</li>
+          <li className={styles.btn}>Lanche</li>
+          <li className={styles.btn}>Janta</li>
+        </ul>
+
+        <div className={styles.row}>
+          <div className={styles.image}>
+            <img
+              src="/pexels-nataliya-vaitkevich-5794879.jpg"
+              alt="Dica de comida"
+              id="menu-img"
+            />
+          </div>
+
+          <div className={styles.content}>
+            <div className={styles.info}>
+              <h3><span>01.</span> Id occaecat ullamco magna minim.</h3>
+
+              <p>Labore velit fugiat cillum et tempor proident et consectetur.</p>
+            </div>
+
+            <div className={styles.info}>
+              <h3><span>02.</span> Id occaecat ullamco magna minim.</h3>
+
+              <p>Labore velit fugiat cillum et tempor proident et consectetur.</p>
+            </div>
+
+            <div className={styles.info}>
+              <h3><span>03.</span> Id occaecat ullamco magna minim.</h3>
+
+              <p>Labore velit fugiat cillum et tempor proident et consectetur.</p>
+            </div>
+
+            <div className={styles.info}>
+              <h3><span>04.</span> Id occaecat ullamco magna minim.</h3>
+
+              <p>Labore velit fugiat cillum et tempor proident et consectetur.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* Fim menu section */}
     </div>
   )
 }
