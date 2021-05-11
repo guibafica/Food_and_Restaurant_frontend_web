@@ -253,37 +253,37 @@ export default function Home() {
 
         <div className={styles.boxContainer}>
           <div className={styles.box}>
-            <img src="/pexels-andres-ayrton-6551131.jpg" alt="Foto galeria" />
+            <img src="/gallery1.jpeg" alt="Foto galeria" />
 
             <h3>Cupidatat culpa.</h3>
           </div>
 
           <div className={styles.box}>
-            <img src="/pexels-cedric-fauntleroy-4270088.jpg" alt="Foto galeria" />
+            <img src="/gallery2.jpeg" alt="Foto galeria" />
 
             <h3>Cupidatat culpa.</h3>
           </div>
 
           <div className={styles.box}>
-            <img src="/pexels-daria-shevtsova-923182.jpg" alt="Foto galeria" />
+            <img src="/gallery3.jpeg" alt="Foto galeria" />
 
             <h3>Cupidatat culpa.</h3>
           </div>
 
           <div className={styles.box}>
-            <img src="/pexels-daria-shevtsova-1030943.jpg" alt="Foto galeria" />
+            <img src="/gallery4.jpeg" alt="Foto galeria" />
 
             <h3>Cupidatat culpa.</h3>
           </div>
 
           <div className={styles.box}>
-            <img src="/pexels-gary-barnes-6248782.jpg" alt="Foto galeria" />
+            <img src="/gallery5.jpeg" alt="Foto galeria" />
 
             <h3>Cupidatat culpa.</h3>
           </div>
 
           <div className={styles.box}>
-            <img src="/pexels-gary-barnes-6248818.jpg" alt="Foto galeria" />
+            <img src="/gallery1.jpeg" alt="Foto galeria" />
 
             <h3>Cupidatat culpa.</h3>
           </div>
