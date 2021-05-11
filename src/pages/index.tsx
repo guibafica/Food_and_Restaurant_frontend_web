@@ -28,7 +28,7 @@ export default function Home() {
   return (
     <div className={styles.homepage}>
       <Head>
-        <title>GoNutri</title>
+        <title>Jenifer Souza</title>
       </Head>
 
       {/* Começo header section */}
@@ -61,7 +61,7 @@ export default function Home() {
       {/* Começo home section */}
       <section className={styles.home} id="home">
         <div className={styles.content}>
-          <h3>Anim est do tempor minim.</h3>
+          <h3>Ola, eu sou a Jenifer Souza.</h3>
 
           <p>
             Magna quis deserunt et est voluptate sint cupidatat sint. Pariatur
@@ -87,7 +87,7 @@ export default function Home() {
           <h3>uma palavra sobre mim</h3>
 
           <p>
-            Veniam nulla laborum adipisicing ad velit ad aliquip et sint
+            Sou uma nutri FODA e bla bla bla... velit ad aliquip et sint
             reprehenderit laborum dolor irure adipisicing. Minim aliquip fugiat
             laborum cupidatat dolore laborum nostrud aute ut exercitation nisi
             officia ea. Velit sunt amet et dolore tempor consequat ullamco.
@@ -167,7 +167,7 @@ export default function Home() {
           <div className={styles.box}>
             <img src="/pexels-cup-of-couple-7660473.jpg" alt="Alimento popular" />
 
-            <h3>Deserunt velit ul.</h3>
+            <h3>Proteína.</h3>
 
             <div className={styles.stars}>
               <FaStar />
@@ -187,7 +187,7 @@ export default function Home() {
           <div className={styles.box}>
             <img src="/pexels-cup-of-couple-7657316.jpg" alt="Alimento popular" />
 
-            <h3>Deserunt velit ul.</h3>
+            <h3>Carboidratos.</h3>
 
             <div className={styles.stars}>
               <FaStar />
@@ -207,7 +207,7 @@ export default function Home() {
           <div className={styles.box}>
             <img src="/pexels-cup-of-couple-7656948.jpg" alt="Alimento popular" />
 
-            <h3>Deserunt velit ul.</h3>
+            <h3>Vitamina.</h3>
 
             <div className={styles.stars}>
               <FaStar />
@@ -227,7 +227,7 @@ export default function Home() {
           <div className={styles.box}>
             <img src="/pexels-jane-d-793759.jpg" alt="Alimento popular" />
 
-            <h3>Deserunt velit ul.</h3>
+            <h3>Gordura.</h3>
 
             <div className={styles.stars}>
               <FaStar />
