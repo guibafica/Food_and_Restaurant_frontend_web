@@ -18,7 +18,7 @@
     justify-content: space-between;
 
     img {
-      height: 5rem;
+      height: 4rem;
     }
   }
 
@@ -42,7 +42,7 @@
     }
 
     .active {
-      color: var(--yellow);
+      color: var(--blue);
     }
 
     a {
@@ -50,7 +50,7 @@
       color: #666;
 
       &:hover {
-        color: var(--yellow);
+        color: var(--blue);
       }
     }
   }
@@ -65,7 +65,7 @@
       top: 8rem; 
       left: 0;
       width: 100%;
-      background: var(--yellow);
+      background: var(--blue);
       border-top: 0.2rem solid rgba(0, 0, 0, 0.1);
       transform: scaleY(0);
       transform-origin: top;
@@ -105,7 +105,7 @@
       top: 8rem; 
       left: 0;
       width: 100%;
-      background: var(--yellow);
+      background: var(--blue);
       border-top: 0.2rem solid rgba(0, 0, 0, 0.1);
       transform: scaleY(1);
       transform-origin: top;
@@ -202,7 +202,7 @@
     position: absolute;
     top: 5rem; 
     right: -6rem;
-    background: var(--yellow);
+    background: var(--blue);
     border-radius: 3rem;
     transform: rotate(-45deg);
     height: 40rem;
@@ -293,10 +293,10 @@
     background: none;
     color: #333;
     cursor: pointer;
-    border: 0.2rem solid var(--yellow);
+    border: 0.2rem solid var(--blue);
 
     &:hover {
-      background: var(--yellow);
+      background: var(--blue);
     }
   }
 
@@ -307,7 +307,7 @@
     color: #333;
 
     span {
-      color: var(--yellow);
+      color: var(--blue);
     }
   }
 
@@ -323,7 +323,7 @@
     border-bottom: 0.3rem dashed rgba(0, 0, 0, 0.2);
 
     .active {
-      background:var(--yellow);
+      background:var(--blue);
       color:#fff;
     }
 
@@ -370,7 +370,7 @@
 
           span {
             padding-right: 1rem;
-            color: var(--yellow);
+            color: var(--blue);
           }
         }
 
@@ -400,7 +400,7 @@
     color: #333;
   
     span {
-      color: var(--yellow);
+      color: var(--blue);
     }
   }
 
@@ -438,7 +438,7 @@
 
       .stars {
         svg {
-          color: var(--yellow);
+          color: var(--blue);
           font-size: 1.5rem;
         }
       }
@@ -461,7 +461,7 @@
     color: #333;
   
     span {
-      color: var(--yellow);
+      color: var(--blue);
     }
   }
 
@@ -537,7 +537,7 @@
     color: #333;
   
     span {
-      color: var(--yellow);
+      color: var(--blue);
     }
   }
 
@@ -549,10 +549,10 @@
     background: none;
     color: #333;
     cursor: pointer;
-    border: 0.2rem solid var(--yellow);
+    border: 0.2rem solid var(--blue);
 
     &:hover {
-      background: var(--yellow);
+      background: var(--blue);
     }
   }
 
@@ -629,7 +629,7 @@
 
         svg {
           padding-right: 0.2rem;
-          color: var(--yellow);
+          color: var(--blue);
         }
       }
 
@@ -640,12 +640,12 @@
         display: block;
 
         &:hover {
-          color: var(--yellow);
+          color: var(--blue);
         }
 
         svg {
           padding-right: 0.2rem;
-          color: var(--yellow);
+          color: var(--blue);
         }
       }
     }
@@ -661,7 +661,7 @@
     color: #fff;
 
     a {
-      color: var(--yellow);
+      color: var(--blue);
     }
   }
 }

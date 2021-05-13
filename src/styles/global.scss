@@ -1,5 +1,6 @@
 :root {
-  --yellow:#F7CA3E;
+  // --yellow:#F7CA3E;
+  --blue:#95d7fe;
 }
 
 * {
@@ -15,7 +16,7 @@
 }
 
 *::selection {
-  background: var(--yellow);
+  background: var(--blue);
   color: #fff;
 }
 
@@ -38,7 +39,7 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: var(--yellow);
+  background: var(--blue);
 }
 
 section {
@@ -55,9 +56,9 @@ button {
   background: none;
   color: #333;
   cursor: pointer;
-  border: 0.2rem solid var(--yellow);
+  border: 0.2rem solid var(--blue);
 
   &:hover {
-    background: var(--yellow);
+    background: var(--blue);
   }
 }

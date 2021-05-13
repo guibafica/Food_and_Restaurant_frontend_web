@@ -1,5 +1,5 @@
 :root{
-    --yellow:#F7CA3E;
+    --blue:#F7CA3E;
 }
 
 *{
@@ -17,7 +17,7 @@ h1, h3{
 }
 
 *::selection{
-    background:var(--yellow);
+    background:var(--blue);
     color:#fff;
 }
 
@@ -40,7 +40,7 @@ html::-webkit-scrollbar-track{
 }
 
 html::-webkit-scrollbar-thumb{
-    background:var(--yellow);
+    background:var(--blue);
 }
 
 section{
@@ -57,11 +57,11 @@ section{
     background:none;
     color:#333;
     cursor: pointer;
-    border:.2rem solid var(--yellow);
+    border:.2rem solid var(--blue);
 }
 
 .btn:hover{
-    background:var(--yellow);
+    background:var(--blue);
 }
 
 .heading{
@@ -72,7 +72,7 @@ section{
 }
 
 .heading span{
-    color:var(--yellow);
+    color:var(--blue);
 }
 
 header{
@@ -110,7 +110,7 @@ header .navbar ul li a{
 
 header .navbar ul li a.active,
 header .navbar ul li a:hover{
-    color:var(--yellow);
+    color:var(--blue);
 }
 
 header #menu-bar{
@@ -135,7 +135,7 @@ header #menu-bar{
     content:'';
     position: absolute;
     top:5rem; right:-6rem;
-    background:var(--yellow);
+    background:var(--blue);
     border-radius: 3rem;
     transform:rotate(-45deg);
     height:40rem;
@@ -231,7 +231,7 @@ header #menu-bar{
 
 .menu .list .btn.active,
 .menu .list .btn:hover{
-    background:var(--yellow);
+    background:var(--blue);
     color:#fff;
 }
 
@@ -273,7 +273,7 @@ header #menu-bar{
 
 .menu .row .content .info h3 span{
     padding-right: 1rem;
-    color:var(--yellow);
+    color:var(--blue);
 }
 
 .menu .row .content .info p{
@@ -320,7 +320,7 @@ header #menu-bar{
 }
 
 .popular .box-container .box .stars i{
-    color:var(--yellow);
+    color:var(--blue);
     font-size: 2rem;
     padding:1rem .1rem;
 }
@@ -474,12 +474,12 @@ header #menu-bar{
 }
 
 .footer .box-container .box a:hover{
-    color:var(--yellow);
+    color:var(--blue);
 }
 
 .footer .box-container .box p i{
     padding-right: .5rem;
-    color:var(--yellow);
+    color:var(--blue);
 }
 
 .footer .credit{
@@ -493,7 +493,7 @@ header #menu-bar{
 }
 
 .footer .credit a{
-    color:var(--yellow);
+    color:var(--blue);
 }
 
 
@@ -540,7 +540,7 @@ header #menu-bar{
         position: fixed;
         top:8rem; left:0;
         width:100%;
-        background:var(--yellow);
+        background:var(--blue);
         border-top: .2rem solid rgba(0,0,0,.1);
         transform:scaleY(0);
         transform-origin: top;

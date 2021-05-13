@@ -34,7 +34,7 @@ export default function Home() {
       {/* Começo header section */}
       <header>
         <a href="#" className={styles.logo}>
-          <img src="/favicon.png" alt="logo" />
+          <img src="/nutriLogoNome.png" alt="logo" />
         </a>
 
         <div className={styles.menuBar} onClick={handleMenuBarClick}>
@@ -61,7 +61,7 @@ export default function Home() {
       {/* Começo home section */}
       <section className={styles.home} id="home">
         <div className={styles.content}>
-          <h3>Ola, eu sou a Jenifer Souza.</h3>
+          <h3>Olá, eu sou Jenifer Souza.</h3>
 
           <p>
             Magna quis deserunt et est voluptate sint cupidatat sint. Pariatur
